@@ -1,0 +1,74 @@
+
+main img{
+
+    width: 10%;
+    height: 10%;
+}
+
+#animacaoBola{
+
+     
+   animation: animacaoBola 4s;
+   
+    
+}
+
+@keyframes animacaoBola {
+
+    from{
+
+        
+        transform: scale(100%) translateX(-50%);
+    }
+    
+    to{
+        transform: scale(100%) translateX(75%);
+        
+    }
+}
+
+#iconeClick{
+    
+    animation: iconeClick 1s;
+     
+}
+
+
+@keyframes iconeClick{
+    from{
+
+        
+        transform: scale(100%) translateY(50%);
+    }
+    
+    to{
+        transform: scale(100%) translateY(-25%);
+        
+    }
+    }
+
+    .click{
+
+        
+            border: 0;
+          
+            padding: 50px 50px;
+            font-size: 25px;
+            text-align: center;
+            color: #fff;
+            text-shadow: 1px 1px 1px #000;
+            border-radius: 10px;
+            background-color: rgba(220, 0, 0, 1);
+            
+    }
+
+    .click:hover {
+        background-color: rgb(17, 16, 16);
+        transition: 1s;
+    }
+  
+
+
+
+
+
